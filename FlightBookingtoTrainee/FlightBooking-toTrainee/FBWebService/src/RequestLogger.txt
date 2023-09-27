@@ -1,0 +1,14 @@
+Thu Mar 11 2021 13:35:56 GMT+0530 (India Standard Time) GET /setupDb
+Fri Mar 12 2021 01:09:34 GMT+0530 (India Standard Time) GET /
+Fri Mar 12 2021 01:20:41 GMT+0530 (India Standard Time) GET /getAllBookings/
+Fri Mar 12 2021 01:20:55 GMT+0530 (India Standard Time) GET /getAllBookings/
+Fri Mar 12 2021 01:21:07 GMT+0530 (India Standard Time) GET /setupDb
+Fri Mar 12 2021 01:25:03 GMT+0530 (India Standard Time) GET /setupDb
+Fri Mar 12 2021 01:25:13 GMT+0530 (India Standard Time) GET /evaluate
+Fri Mar 12 2021 01:47:17 GMT+0530 (India Standard Time) GET /getAllBookings/
+Fri Mar 12 2021 01:47:21 GMT+0530 (India Standard Time) GET /getAllBookings/
+Fri Mar 12 2021 01:47:33 GMT+0530 (India Standard Time) GET /getAllBookings/
+Fri Mar 12 2021 01:47:35 GMT+0530 (India Standard Time) DELETE /deleteBooking/2001
+Fri Mar 12 2021 01:49:07 GMT+0530 (India Standard Time) GET /getAllBookings/
+Fri Mar 12 2021 01:49:26 GMT+0530 (India Standard Time) GET /getAllBookings/
+Fri Mar 12 2021 01:49:40 GMT+0530 (India Standard Time) GET /getAllBookings/

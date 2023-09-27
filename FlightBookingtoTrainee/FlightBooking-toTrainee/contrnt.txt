@@ -1,0 +1,6 @@
+For defining routes >> 
+                    Browser Router
+                    Switch
+                    Link
+                    Route
+                    Redirect
