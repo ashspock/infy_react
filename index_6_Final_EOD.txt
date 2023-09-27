@@ -1,0 +1,57 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+const employeeData = [
+  { id: 666, name: "John", age: 22 },
+  { id: 667, name: "Jane", age: 25 },
+  { id: 668, name: "Johnny", age: 24 },
+  { id: 669, name: "Juan", age: 28 },
+  { id: 676, name: "Jonah", age: 27 },
+  { id: 686, name: "Jenny", age: 25 },
+];
+
+const handleGetDetails = (empObj) => {
+  alert("DATA is:: " + JSON.stringify(empObj))
+}
+
+const parent = (
+  <div className="container-fluid">
+    <h1 className="display-3 text-center">When will Day 1 of React End?</h1>
+
+    <div className="row">
+      <div className="col-4 offset-4">
+        <h3 className="text-center">Employee Data</h3>
+        <table className="table">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Name</th>
+              <th>Age</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            {/* We NEED to MAP over dataArr, and create a new Array of <trs> with data insded them */}
+            {employeeData.map((empObj, index) => (
+              <tr key={index}>
+                <td>{empObj.id}</td>
+                <td>{empObj.name}</td>
+                <td>{empObj.age}</td>
+                <td>
+                  <button className="btn btn-success" 
+                    onClick={() => handleGetDetails(empObj.id)}> GET DETAILS 
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+)
+
+ReactDOM.render(parent, document.getElementById('root'));
