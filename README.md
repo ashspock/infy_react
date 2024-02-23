@@ -1,1 +1,1 @@
-# infy_react
+# MERN Stack
